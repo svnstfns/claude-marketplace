@@ -1,0 +1,30 @@
+# Traceability matrix — Requirement -> Architecture -> API -> UI -> Test -> Impl
+#
+# Every REQ-F### and REQ-NF## must appear here exactly once.
+# An entry with status `active` requires at least one `tests:` reference.
+# An entry with status `dropped` requires a `note:` and an `adr:` link.
+
+- req: REQ-F001
+  title: <short title>
+  status: active                  # active | deferred | dropped
+  arch: [ARCH-data-model, ARCH-dataflow]
+  api: [API-core-endpoints#POST-resource]
+  ui: [UI-resource-list#create-form]
+  tests: [TC-001, TC-002]
+  impl:
+    - src/api/routes/resource.py
+    - src/services/resource_service.py
+
+- req: REQ-F050
+  title: Legacy MCP server
+  status: dropped
+  note: "Replaced by REST API"
+  adr: [ADR-002]
+
+- req: REQ-NF001
+  title: Search latency
+  status: active
+  arch: [ARCH-dataflow]
+  tests: [TC-042]
+  impl:
+    - src/services/search.py

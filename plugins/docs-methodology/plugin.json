@@ -1,0 +1,9 @@
+{
+  "name": "docs-methodology",
+  "version": "1.0.0",
+  "description": "Documentation methodology skill — arc42-inspired, ID-anchored, with bundled templates and traceability linter.",
+  "author": "svnstfns",
+  "license": "MIT",
+  "type": "plugin",
+  "skills": ["documentation-methodology"]
+}

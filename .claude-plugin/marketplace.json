@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "svnstfns-marketplace",
+  "description": "Personal Claude Code marketplace by svnstfns — skills, plugins, agents and MCP integrations developed in-house.",
+  "owner": "svnstfns",
+  "plugins": [
+    {
+      "id": "docs-methodology",
+      "name": "Documentation Methodology",
+      "description": "Lightweight, ID-anchored, arc42-inspired documentation methodology. Enforces stable IDs, immutable accepted ADRs, traceability.yaml spine, and the right template for each artifact (REQ-F, REQ-NF, ADR, ARCH, API, UI, TC).",
+      "version": "1.0.0",
+      "author": "svnstfns",
+      "repository": "https://github.com/svnstfns/claude-marketplace",
+      "path": "plugins/docs-methodology",
+      "type": "plugin",
+      "tags": ["documentation", "methodology", "arc42", "adr", "traceability", "requirements"]
+    }
+  ]
+}
