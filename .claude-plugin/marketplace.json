@@ -14,6 +14,17 @@
       "path": "plugins/docs-methodology",
       "type": "plugin",
       "tags": ["documentation", "methodology", "arc42", "adr", "traceability", "requirements"]
+    },
+    {
+      "id": "truenas-mcp",
+      "name": "TrueNAS MCP",
+      "description": "Deploy and manage TrueNAS Scale Docker apps from Claude Code. Bundles five skills (discovery, planning, deploy/verify, troubleshoot, purge) and two slash commands that drive the truenas-mcp MCP server. Server is fetched at runtime via uvx — no separate install.",
+      "version": "0.1.0",
+      "author": "svnstfns",
+      "repository": "https://github.com/svnstfns/claude-marketplace",
+      "path": "plugins/truenas-mcp",
+      "type": "plugin",
+      "tags": ["truenas", "mcp", "docker", "deployment", "homelab"]
     }
   ]
 }
