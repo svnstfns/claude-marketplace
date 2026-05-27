@@ -2,8 +2,13 @@
   "name": "docs-methodology",
   "version": "1.0.0",
   "description": "Documentation methodology skill — arc42-inspired, ID-anchored, with bundled templates and traceability linter.",
-  "author": "svnstfns",
+  "author": {
+    "name": "svnstfns",
+    "url": "https://github.com/svnstfns"
+  },
+  "homepage": "https://github.com/svnstfns/claude-marketplace/tree/main/plugins/docs-methodology",
+  "repository": "https://github.com/svnstfns/claude-marketplace",
   "license": "MIT",
-  "type": "plugin",
+  "keywords": ["documentation", "methodology", "arc42", "adr", "traceability", "requirements"],
   "skills": ["documentation-methodology"]
 }
