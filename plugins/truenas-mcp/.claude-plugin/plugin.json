@@ -1,6 +1,6 @@
 {
   "name": "truenas-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Deploy and manage TrueNAS Scale apps from Claude Code — bundles opinionated skills and slash commands that drive the truenas-mcp MCP server for single-host homelab deployments.",
   "author": {
     "name": "svnstfns",
