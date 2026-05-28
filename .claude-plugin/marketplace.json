@@ -24,7 +24,7 @@
       "name": "truenas-mcp",
       "source": "./plugins/truenas-mcp",
       "description": "Deploy and manage TrueNAS Scale Docker apps from Claude Code. Bundles five skills (discovery, planning, deploy/verify, troubleshoot, purge) and two slash commands that drive the truenas-mcp MCP server. Server is fetched at runtime via uvx — no separate install.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "svnstfns",
         "url": "https://github.com/svnstfns"
