@@ -2,6 +2,28 @@
 
 Deploy and manage TrueNAS Scale (≥ 25.04) Docker apps from Claude Code.
 
+## First-Time Setup
+
+After `claude plugin install truenas-mcp`:
+
+1. ✓ Plugin installed (you're here).
+2. → Run `/truenas-mcp:install` in any Claude Code session.
+   The command walks you through finding your NAS on the local
+   network, creating a dedicated service user (`claude-llm`),
+   and generating an API key. Your admin password is entered
+   in your own terminal — never in the Claude chat.
+3. → Restart Claude Code so the MCP server loads. The
+   `truenas-mcp` tools become available to skills.
+
+To verify the setup at any time, run `/truenas-mcp:doctor`. To tear
+it down, run `/truenas-mcp:uninstall`.
+
+The bootstrap is idempotent: re-running install on an existing
+`claude-llm` user offers to either reuse it (just mint a new API
+key) or recreate it from scratch.
+
+## About the plugin
+
 This plugin bundles the procedural knowledge (skills) and slash commands that drive the [`truenas-mcp`](https://github.com/svnstfns/truenas-mcp) MCP server. The server itself is fetched at runtime by `uvx` straight from its git repository — no separate install needed.
 
 ## What you get
