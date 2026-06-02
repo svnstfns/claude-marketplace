@@ -35,16 +35,19 @@
     }
   ,
     {
-      "id": "nebula-otter",
       "name": "nebula-otter",
-      "source": "./plugins/nebula-otter",
-      "description": "Manage Docker apps on TrueNAS SCALE 25.04. 15 MCP tools, 9 domain skills, 4 slash commands — uvx-launched FastMCP server.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/svnstfns/nebula-otter.git",
+        "sha": "d9ea93c72b4ff2d2dcebb0e36cd0181ec13f278a"
+      },
+      "description": "Deploy and manage Docker apps on TrueNAS SCALE 25.04 from Claude Code — 9 domain skills, 4 slash commands, and a FastMCP server with 17 tools.",
       "version": "0.1.0",
       "author": {
         "name": "svnstfns",
         "url": "https://github.com/svnstfns"
       },
-      "repository": "https://github.com/svnstfns/claude-marketplace",
+      "repository": "https://github.com/svnstfns/nebula-otter",
       "license": "MIT",
       "tags": ["truenas", "mcp", "docker", "deployment", "homelab", "fastmcp"]
     }
