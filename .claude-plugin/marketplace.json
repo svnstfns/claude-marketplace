@@ -51,10 +51,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/svnstfns/nebula-otter.git",
-        "sha": "14b37f8c165fa133211c3638b5226a0d911847dd"
+        "sha": "f7e44148cf37d83d256ce495d4702e0784106473"
       },
       "description": "Deploy and manage Docker apps on TrueNAS SCALE 25.04 from Claude Code \u2014 9 domain skills, 4 slash commands, and a FastMCP server with 17 tools.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "svnstfns",
         "url": "https://github.com/svnstfns"
