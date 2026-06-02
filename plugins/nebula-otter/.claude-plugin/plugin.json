@@ -1,0 +1,20 @@
+{
+  "name": "nebula-otter",
+  "version": "0.1.0",
+  "description": "Deploy and manage Docker apps on TrueNAS SCALE 25.04 from Claude Code — 9 domain skills, 4 slash commands, and a FastMCP server with 15 tools.",
+  "author": {
+    "name": "svnstfns",
+    "url": "https://github.com/svnstfns"
+  },
+  "homepage": "https://github.com/svnstfns/nebula-otter",
+  "repository": "https://github.com/svnstfns/claude-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "truenas",
+    "docker",
+    "deployment",
+    "mcp",
+    "homelab",
+    "fastmcp"
+  ]
+}
