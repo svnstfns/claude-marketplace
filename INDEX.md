@@ -4,6 +4,7 @@
 |---|---|---|---|
 | `docs-methodology` | skill | arc42-inspired, ID-anchored documentation methodology with bundled templates and traceability linter | [`plugins/docs-methodology/`](plugins/docs-methodology/) |
 | `truenas-mcp` | plugin | TrueNAS Scale deployment from Claude Code: 5 skills + 2 slash commands + uvx-launched MCP server | [`plugins/truenas-mcp/`](plugins/truenas-mcp/) |
+| `nebula-otter` | plugin | TrueNAS SCALE 25.04 app manager: 15 MCP tools + 9 skills + 4 commands (clean rewrite, 25.04 API) | [`plugins/nebula-otter/`](plugins/nebula-otter/) |
 
 ---
 

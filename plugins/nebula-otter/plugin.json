@@ -1,0 +1,26 @@
+{
+  "name": "nebula-otter",
+  "version": "0.1.0",
+  "description": "Manage Docker apps on TrueNAS SCALE 25.04 from Claude Code. Bundles 9 domain skills, 4 slash commands, and a uvx-launched FastMCP server.",
+  "author": "svnstfns",
+  "license": "MIT",
+  "type": "plugin",
+  "skills": [
+    "truenas-onboarding",
+    "truenas-discovery",
+    "truenas-storage-conventions",
+    "truenas-deployment-planning",
+    "truenas-deploy-and-verify",
+    "truenas-app-control",
+    "truenas-files",
+    "truenas-troubleshoot",
+    "truenas-purge"
+  ],
+  "commands": [
+    "truenas-list",
+    "truenas-status",
+    "truenas-control",
+    "truenas-upload"
+  ],
+  "mcp": ["nebula-otter"]
+}
