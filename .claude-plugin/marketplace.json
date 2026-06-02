@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "svnstfns-marketplace",
-  "description": "Personal Claude Code marketplace by svnstfns — skills, plugins, agents and MCP integrations developed in-house.",
+  "description": "Personal Claude Code marketplace by svnstfns \u2014 skills, plugins, agents and MCP integrations developed in-house.",
   "owner": {
     "name": "svnstfns",
     "url": "https://github.com/svnstfns"
@@ -18,12 +18,19 @@
       },
       "repository": "https://github.com/svnstfns/claude-marketplace",
       "license": "MIT",
-      "tags": ["documentation", "methodology", "arc42", "adr", "traceability", "requirements"]
+      "tags": [
+        "documentation",
+        "methodology",
+        "arc42",
+        "adr",
+        "traceability",
+        "requirements"
+      ]
     },
     {
       "name": "truenas-mcp",
       "source": "./plugins/truenas-mcp",
-      "description": "Deploy and manage TrueNAS Scale Docker apps from Claude Code. Bundles five skills (discovery, planning, deploy/verify, troubleshoot, purge) and two slash commands that drive the truenas-mcp MCP server. Server is fetched at runtime via uvx — no separate install.",
+      "description": "Deploy and manage TrueNAS Scale Docker apps from Claude Code. Bundles five skills (discovery, planning, deploy/verify, troubleshoot, purge) and two slash commands that drive the truenas-mcp MCP server. Server is fetched at runtime via uvx \u2014 no separate install.",
       "version": "0.2.0",
       "author": {
         "name": "svnstfns",
@@ -31,25 +38,37 @@
       },
       "repository": "https://github.com/svnstfns/claude-marketplace",
       "license": "MIT",
-      "tags": ["truenas", "mcp", "docker", "deployment", "homelab"]
-    }
-  ,
+      "tags": [
+        "truenas",
+        "mcp",
+        "docker",
+        "deployment",
+        "homelab"
+      ]
+    },
     {
       "name": "nebula-otter",
       "source": {
         "source": "url",
         "url": "https://github.com/svnstfns/nebula-otter.git",
-        "sha": "0aee00d652f985d4a89ff601e4860c50c68ddc90"
+        "sha": "14b37f8c165fa133211c3638b5226a0d911847dd"
       },
-      "description": "Deploy and manage Docker apps on TrueNAS SCALE 25.04 from Claude Code — 9 domain skills, 4 slash commands, and a FastMCP server with 17 tools.",
-      "version": "0.1.0",
+      "description": "Deploy and manage Docker apps on TrueNAS SCALE 25.04 from Claude Code \u2014 9 domain skills, 4 slash commands, and a FastMCP server with 17 tools.",
+      "version": "0.1.1",
       "author": {
         "name": "svnstfns",
         "url": "https://github.com/svnstfns"
       },
       "repository": "https://github.com/svnstfns/nebula-otter",
       "license": "MIT",
-      "tags": ["truenas", "mcp", "docker", "deployment", "homelab", "fastmcp"]
+      "tags": [
+        "truenas",
+        "mcp",
+        "docker",
+        "deployment",
+        "homelab",
+        "fastmcp"
+      ]
     }
   ]
 }
